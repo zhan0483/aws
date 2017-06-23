@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+label {
+    display: block;
+    margin-top: 1rem;
+}
+input {
+    height: 1.5rem;
+    font-size: 1rem;
+    padding: 0.1rem 1rem;
+    width: 93%;
+    margin: 0 auto;
+}
+button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem 0rem;
+    width: 100%;
+}
+.hidden {
+    visibility: hidden;
+    position: absolute;
+}
+spam {
+    color: #407292;
+    font-size: 0.88rem;
+    padding-left: 3rem;
+    display: block;
+}

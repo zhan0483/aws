@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Amazon AWS </title>
+    
+</head>
+<body>
+    <h1>Amazon AWS </h1>
+    <a href="login.html" style="float: right; ">Log off</a>
+    </br>
+    <button id="s3" style="width:49%; margin:0 0;">S3</button>
+    <button id="search" style="width:49%; margin:0 0;">Search</button>
+    
+    <div id="s3page" style= 'width: 98.3%;border:1px solid #000;' >
+    
+        <p>Hello World</p>
+    </div>
+    
+    <div id="searchpage" style= 'width: 98.3%;border:1px solid #000; display:none'>
+    
+        <h2>Search </h2>
+        <input id="searchinput" type="text" placeholder="Type key words in here. e.g. 'eye care canada'" name="searchinput" min="1"/>
+        <button id="searchsubmit">Submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script type="text/javascript" src="../js/aws-sdk-2.75.0.min.js"></script>
+    <script type="text/javascript" src="../js/aws_main.js"></script>
+    <script type="text/javascript" src="../js/aws-cognito-sdk.min.js"></script>
+    <script type="text/javascript" src="../js/amazon-cognito-identity.min.js"></script>
+    
+    <footer>
+        <p>&copy; <time datetime="2017">2017</time> <a href="http://www.algonquincollege.com/appliedresearch/" target="_blank">Applied Research and Innovation</a></p>
+    </footer>
+
+    
+</body>
+</html>
