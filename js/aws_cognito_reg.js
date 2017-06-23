@@ -87,7 +87,7 @@ let aws = {
             }
             else{
                 alert("Success!");
-                window.location.href='../login.html';
+                window.location.href='/login.html';
             }
             //console.log('call result: ' + result);
         })

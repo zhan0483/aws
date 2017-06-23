@@ -88,7 +88,7 @@ let aws = {
 aws.init();
 
 function awsmain(){
-    var url = "../main.html?accessKeyId="+accessKeyId+"&secretAccessKey="+secretAccessKey+"&sessionToken="+sessionToken;
+    var url = "/main.html?accessKeyId="+accessKeyId+"&secretAccessKey="+secretAccessKey+"&sessionToken="+sessionToken;
     //var url = "../main.html";
     //console.log(url);
     window.location.href = url;
